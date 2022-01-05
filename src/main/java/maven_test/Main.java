@@ -39,7 +39,7 @@ public class Main {
     }
 
     private static void write_in_new_index_html(String new_index_html) throws IOException {
-        File file = new File("src/main/java/html/new_index.html");
+        File file = new File("/var/www/html/index.html");
         FileWriter fw = new FileWriter(file.getAbsoluteFile());
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(new_index_html);
