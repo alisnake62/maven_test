@@ -41,7 +41,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>maven_test.Main.Main</mainClass>
+              <mainClass>maven_test.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
